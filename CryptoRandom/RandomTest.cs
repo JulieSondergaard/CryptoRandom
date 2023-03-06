@@ -11,7 +11,7 @@ namespace CryptoRandom
 	internal class RandomTest
 	{
 		
-
+		//The slower but better random generator
 		public static void Execute(int maxRandom, int randomCount)
 		{
 			
@@ -22,6 +22,8 @@ namespace CryptoRandom
 			
 
 		}
+
+		// the faster but not so randomly random generator
 		public static void PseudoRandom(int maxRandom, int randomCount)
 		{
 			Random random = new Random();
